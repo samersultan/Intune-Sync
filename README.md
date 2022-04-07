@@ -1,6 +1,6 @@
 ## Powershell Script to Force Intune Sync
 
-Manually sync Intune Polciies via PowerShell
+Manually sync Intune Group Policy and Deployments 
 
 ```
 Get-ScheduledTask | where {$_.TaskName -eq 'PushLaunch'} | Start-ScheduledTask
